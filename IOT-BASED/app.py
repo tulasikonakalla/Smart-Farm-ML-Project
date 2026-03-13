@@ -3,8 +3,8 @@ import pickle
 import numpy as np
 
 # Load model and scaler
-model = pickle.load(open("model.pkl", "rb"))
-scaler = pickle.load(open("scaler.pkl", "rb"))
+model = pickle.load(open("IOT-BASED/model.pkl", "rb"))
+scaler = pickle.load(open("IOT-BASED/scaler.pkl", "rb"))
 
 st.title("Crop Recommendation System 🌱")
 
